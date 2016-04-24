@@ -35,7 +35,7 @@ function updateTimeLine(){
 			var html = prepareMessages(data);
 			$("#moreMessages").click(function(){
 				$("#newMessages").show();
-				$("#moreMessages").hide();
+				$("#moreMessages").hide("explode", {}, 1000);
 			});
 			$("#newMessages").append(html);
 		})
@@ -68,10 +68,10 @@ function prepareMessages(data){
 	for (var i = 0; i < data.messages.length; i++){
 		var mess =  data.messages[i];
 		html += "<div class='message col-xs-12'>";
-		html += "<img class='avatar col-xs-4 col-md-2' height='125' src='" + mess.avatar + "' alt='avatar'>";
-		html += "<div class='col-xs-8 col-md-2'><p class='author'>" + mess.author + "</p>"
-		html += "<p class='title'>" + mess.title + "</p>";
-		html += "<input type='button' class='showDetail' value='Show More' name='" + buttons + "'></div>";
+		html += "<img class='avatar col-xs-4 col-md-2 img-circle' src='" + mess.avatar + "' alt='avatar'>";
+		html += "<div class='col-xs-8 col-md-2'><h2 class='author'>" + mess.author + "</h2>"
+		html += "<h4 class='title'>" + mess.title + "</h4>";
+		html += "<input type='button' class='showDetail btn btn-default' value='Show More' name='" + buttons + "'></div>";
 		html += "<div id='" + buttons + "' class='detailedInfo col-xs-12 col-md-8' hidden>";
 		buttons += 1;
 		var date = new Date(mess.date)
@@ -87,10 +87,10 @@ function setButtonCallback(){
 		var infId = this.name;
 				
 		if (this.value == "Show More"){
-			$("#" + infId).show();
+			$("#" + infId).show("drop", {}, 1000);
 			this.value = "Hide";
 		}else{
-			$("#" + infId).hide();
+			$("#" + infId).hide("drop", {}, 1000);
 			this.value = "Show More";
 		}
 	});

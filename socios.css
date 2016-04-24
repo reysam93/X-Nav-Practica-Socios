@@ -1,0 +1,67 @@
+.page-header{
+	background: #181226;
+	background: -webkit-linear-gradient(left, #181226, #474158); 
+    background: -o-linear-gradient(left, #181226, #474158); 
+    background: -moz-linear-gradient(left, #181226, #474158); 
+    background: linear-gradient(left, #181226, #474158);
+	margin: 0%;
+	padding: 5%;
+	text-shadow: 5px 5px black;
+}
+
+.page-header h1{
+	font-size: 75px;
+	color: #ffffff;
+}
+
+.message{
+	border-color: #000000;
+	border-radius: 3px;
+	background-color: #0C061C;
+	margin: 10px;
+	padding: 10px;
+	align-content: center;
+	box-shadow: 3px 3px 5px black;
+}
+
+.message img{
+	height: 150px;
+	align-self: center;
+}
+
+.message h2{
+	color: #fff;
+	font-size: 30px;
+}
+
+.message h4{
+	color: #A0A0A0;
+	font-size: 25px;
+}
+
+.message p{
+	color: #E0E0E0;
+	font-size: 17px;
+	margin-top: 20px;
+	vertical-align: center;
+}
+
+.date{
+	font-size: 20;
+}
+
+#moreMessages{
+	text-align: center;
+	padding: 15px;
+	background: #181226;
+	background: -webkit-linear-gradient(left, #181226, #474158); 
+    background: -o-linear-gradient(left, #181226, #474158); 
+    background: -moz-linear-gradient(left, #181226, #474158); 
+    background: linear-gradient(left, #181226, #474158);
+	color: white;
+	border-radius: 30px;
+}
+
+body{
+	background: #DCDCDC;
+}
