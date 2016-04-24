@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<title>Socios</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="socios.js"></script>
+<head>
+</head>
+<body>
+	<div class="page-header">
+  		<h1>SOCIOS!</h1>
+	</div>
+
+	<!-- Nav tabs -->
+	<div class="col-xs-1">
+	</div>
+
+	<div class="col-xs-10">
+		<ul class="nav nav-tabs nav-justified" id="mainContent">
+		  <li role="presentation" class="active"><a href="#timeLine" >TimeLine</a></li>
+		  <li role="presentation"><a href="#messages">You Messages</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active fade in" id="timeLine">
+		    	<p class="description">See your messages and the messages from your Partners</p>
+		    	<p id='moreMessages' hidden>You have new messages! Click here for showing them</p>
+		    	<div id="newMessages" hidden></div>
+		    	<div id="oldMessages"></div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane fade" id="messages">
+		    	<p class="description">See the messages you have written</p>
+		    	<div id="myMessages"></div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane fade" id="partners">Your partners!</div>
+		</div>
+	</div>
+	
+	<div class="col-xs-1">
+	</div>
+</body>
+</html>

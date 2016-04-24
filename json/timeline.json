@@ -1,0 +1,39 @@
+{
+	"messages": [
+		{
+			"author": "Jax",
+			"avatar": "imgs/jax.jpg",
+			"title": "Finally!",
+			"content": "I have finally been promoted to President of SOA!!",
+			"date": "3/22/2016 13:00"
+		},
+		{
+			"author": "Sam",
+			"avatar": "imgs/sam.jpg",
+			"title": "First Time!",
+			"content": "This has been my first time using this awsome new social network. Hope it will be great!",
+			"date": "4/5/2016 12:35"
+		},
+		{
+			"author": "Jax",
+			"avatar": "imgs/jax.jpg",
+			"title": "Try",
+			"content": "This is a try message",
+			"date": "9/10/2015 18:32"
+		},
+		{
+			"author": "Sara",
+			"avatar": "imgs/sara.jpg",
+			"title": "Un titulo",
+			"content": "Ojala tuviese algo interesante que decir.",
+			"date": "12/15/2015 1:50"
+		},
+		{
+			"author": "Sara",
+			"avatar": "imgs/sara.jpg",
+			"title": "Feliz Navidad!",
+			"content": "!!!!!!!!!!!!!!",
+			"date": "12/25/2015 00:12"
+		}
+	]
+}
