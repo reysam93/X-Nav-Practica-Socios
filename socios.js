@@ -68,8 +68,8 @@ function prepareMessages(data){
 	for (var i = 0; i < data.messages.length; i++){
 		var mess =  data.messages[i];
 		html += "<div class='message col-sm-12'>";
-		html += "<img class='avatar col-sm-4 col-md-2 img-circle' src='" + mess.avatar + "' alt='avatar'>";
-		html += "<div class='col-sm-8 col-md-2'><h2 class='author'>" + mess.author + "</h2>"
+		html += "<img class='avatar col-sm-3 col-md-2 img-circle' src='" + mess.avatar + "' alt='avatar'>";
+		html += "<div class='col-sm-9 col-md-2'><h2 class='author'>" + mess.author + "</h2>"
 		html += "<h4 class='title'>" + mess.title + "</h4>";
 		html += "<input type='button' class='showDetail btn btn-default' value='Show More' name='" + buttons + "'></div>";
 		html += "<div id='" + buttons + "' class='detailedInfo col-sm-12 col-md-8' hidden>";
