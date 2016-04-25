@@ -76,7 +76,14 @@ function prepareMessages(data){
 		buttons += 1;
 		var date = new Date(mess.date)
 		html += "<p class='date'>" + date.toUTCString() + "</p>";
-		html += "<p class='content'>" + mess.content + "</p>"; 
+		html += "<p class='content'>" + mess.content + "</p>";
+		if (mess.img){
+			html += "<img src='" + mess.img+ "'>";
+		}
+		if (mess.video){
+			html += "<iframe src='"+ mess.video + "' frameborder='0' allowfullscreen></iframe>";
+
+		}
 		html += "</div></div><br/>";
 	}
 	return html;

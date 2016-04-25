@@ -12,7 +12,7 @@
 			"avatar": "imgs/sam.jpg",
 			"title": "First Time!",
 			"content": "This has been my first time using this awsome new social network. Hope it will be great!",
-			"date": "4/5/2016 12:35"
+			"date": "4/2/2016 12:35"
 		},
 		{
 			"author": "Jax",
@@ -34,6 +34,14 @@
 			"title": "Feliz Navidad!",
 			"content": "!!!!!!!!!!!!!!",
 			"date": "12/25/2015 00:12"
+		},
+		{
+			"author": "Sam",
+			"avatar": "imgs/sam.jpg",
+			"title": "Awsome Images",
+			"content": "Estas imágenes son sencillamente espectaculares!!",
+			"date": "4/22/2016 13:00",
+			"img": "https://i.ytimg.com/vi/GjiFHJNSqQI/maxresdefault.jpg"
 		}
 	]
 }
